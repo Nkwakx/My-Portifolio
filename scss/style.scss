@@ -1,5 +1,7 @@
-$primary:#f003;
+$background:  #E6E6D1;
+$color: #003366;
 
-.test{
-    color: $primary;
+*{
+    background-color: $background;
+    color: $color;
 }
