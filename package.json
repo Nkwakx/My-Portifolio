@@ -1,0 +1,24 @@
+{
+  "name": "my-porfolio",
+  "version": "1.0.0",
+  "description": "My resume and portifolio bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "my-portifolio"
+  ],
+  "author": "Nlakaniplo Khumalo",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3"
+  }
+}
