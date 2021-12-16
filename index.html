@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <title>My Portifolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+    <title>My Portifolio</title>
 </head>
+
 <body>
-  <header>
-      <nav>
-          <lu>
-              <li>Home</li>
-              <li>About</li>
-              <li>My Skills</li>
-              <li>Projects</li>
-              <li>Contact Me</li>
-          </lu>
-      </nav>
-  </header>
-  <main>
-      <h1>Hello there! I'm Nlakaniplo,</h1>
-     <h1>Software developer</h1>
-  </main>
-  <footer>
-  </footer>
-  <script src="scripts.js"></script>
+
+    <header id="header" class="header">
+        <div class="multi_color_border"></div>
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h1><a href="index.html">NK</a></h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="contact-info d-flex align-items-center">
+                        <i class="fas fa-envelope"></i><a href="mailto:nhlakahns@gmail.com"><span>nhlakahns@gmail.com</span></a>
+                    </li>
+                    <li class="contact-info d-flex align-items-center"><i class="fas fa-phone"><span> +27 725 071 175</span></i></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <div class="header-social-links d-flex">
+                <a href="#" class="twitter"><i class="fab fa-github"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></i></a>
+            </div>
+        </div>
+    </header>
+
+    <sidebar class="navbar order-last order-lg-0">
+        <lu>
+            <li>Home</li>
+            <li>About</li>
+            <li>My Skills</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+        </lu>
+    </sidebar>
+    <main>
+        <h1>Hello there! I'm Nlakaniplo,</h1>
+        <h1>Software developer</h1>
+    </main>
+    <footer>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
