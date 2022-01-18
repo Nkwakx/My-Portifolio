@@ -1,0 +1,44 @@
+@use '../custom' as *;
+
+    /*-----------------
+	6. Sidebar
+-----------------------*/
+    
+.sidebar {
+    width: 220px;
+    position: fixed;
+    z-index: 1039;
+    top: 110px;
+    left: 10;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding: 8px 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #888;
+    display: block;
+    font-size: 18px;
+    height: auto;
+}
+
+.sidebar .active a {
+    color: #e38434;
+    background-color: #f3f3f3;
+}
+.sidebar a:hover{
+    color: e38434;
+}
+  .main {
+    margin-left: 0px; /* Same as the width of the sidenav */
+    padding: 37px 255px 0px;
+    //background-color: #f1f1f1;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 18px;}
+    .sidebar a {font-size: 18px;}
+  }
